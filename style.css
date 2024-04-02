@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black;
+  color: white; */
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+}
+
+.topic {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cal-wrapper {
+  border: 5px solid grey;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 200px;
+  text-align: center;
+  align-items: center;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: #deddda;
+  font-family: 'Playfair Display', serif;
+}
+
+.calc {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 60px;
+  text-align: left;
+  background-color: #f6f5f4;
+  font-size: 1.5em;
+}
+
+.principal {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.rate {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.time {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.duration {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  margin-right: 118px;
+}
+
+select {
+  width: 100px;
+  height: 35px;
+  padding: 1px;
+  /* border-radius: 20px; */
+  border: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  /* border-bottom: 2px solid black; */
+}
+
+.button {
+  margin: 19px;
+  border-radius: 43px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.errormsg {
+  padding: 10px;
+}
+
+.resultmsg {
+  padding: 10px;
+}
+
+.botton-options {
+  display: flex;
+}
+
+.clearButton {
+  margin-left: -20px;
+  padding: 6px 12px;
+  border: none;
+  font-size: 16px;
+}
+
+.clearButton:hover {
+  background-color: #2ec27e;
+  color: white;
+}

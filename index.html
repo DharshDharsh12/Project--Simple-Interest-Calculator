@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cal-wrapper">
+    <p class="topic">SIMPLE INTEREST CALCULATOR</p>
+    <div class="program">
+      <div class="calc">
+        <div class="principal">
+          <label for="principal">Principal</label>
+          <input type="number" id="principal">
+        </div>
+        <div class="rate">
+          <label for="rate">Rate</label>
+          <input type="number" id="rate">
+        </div>
+        <div class="time">
+          <label for="time">Time</label>
+          <input type="number" id="time">
+        </div>
+        <div class="botton-options">
+          <div class="duration">
+            <select name="duration" id="duration">
+              <option value="years">Year</option>
+              <option value="months">Month</option>
+            </select>
+          </div>
+          <button class="clearButton" id="clearButton">Clear</button>
+        </div>
+      </div>
+      <input class="button" type="button" value="Calculate Interest" onclick="show()">
+    </div>
+    <div id="result">
+      <p class="errormsg" id="errresult"></p>
+      <p class="resultmsg">Total Amount: <span id="one">0</span></p>
+      <p class="resultmsg">Total interest: <span id="two">0</span></p>
+    </div>
+
+  </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
